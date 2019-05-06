@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="scripts/angular.min.js"></script>
+    <script src="scripts/client.js"></script>
+</head>
+
+<body>
+    <div class="container" method="post" style="margin-top:15%">
+        <div class="row">
+            <div class="col-md-4"></div>
+            <div class="col-md-4">
+                <div ng-app="myApp" ng-controller="Controller">
+
+                    <form ng-submit="addLocation()">
+                        <input type="mail" class="form-control" id="search" ng-model="locationAdress" />
+
+                        <div class="dropdown">
+
+                            <a href="#" class="btn btn-primary disabled my-3" ng-if="locations[0]"  role="button" aria-disabled="true">
+                                {{ locations[0] }}
+                            </a>
+                            <a href="#" class="btn btn-primary disabled" ng-if="locations[1]"  role="button" aria-disabled="true">
+                                {{ locations[1] }}
+                            </a>
+
+                            <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown" ng-if="locations[2]">
+                                {{locations.length - 2}} More
+                            </button>
+
+                            <div class="dropdown-menu" ng-if="locations1">
+                                <a class="dropdown-item" ng-repeat="location in locations1" href="#">{{location}}</a>
+                            </div>
+                        </div>
+
+                    </form>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <script src="https://code.jquery.com/jquery-3.4.1.js"
+        integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js"
+        integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js"
+        integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1"
+        crossorigin="anonymous"></script>
+
+
+     <script>
+        function placeSearch() {
+            var input = document.getElementById('search');
+            var autocomplete = new google.maps.places.Autocomplete(input);
+        }
+    </script>
+
+    <script type="text/javascript"
+        src="https://maps.googleapis.com/maps/api/js?key=PUT_YOUR_API_HERE&libraries=places&callback=placeSearch"></script> 
+
+</body>
+
+</html>
