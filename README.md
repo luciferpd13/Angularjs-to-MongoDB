@@ -7,7 +7,7 @@ I have also made the video on how to use project :- https://www.youtube.com/watc
 	Steps to be followed:-
 
 1.Since our Project is based on Google location api. You have to put your api credientals.<br />
-Go to client/index.html
+Go to client/index.html<br />
 Scroll Down to
 <br />
  <script type="text/javascript" <br />
