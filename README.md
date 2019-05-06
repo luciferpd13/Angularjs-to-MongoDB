@@ -13,7 +13,7 @@ Scroll Down to
  <script type="text/javascript" <br />
         src="https://maps.googleapis.com/maps/api/js?key=PUT_YOUR_API_HERE&libraries=places&callback=placeSearch"><br />
  </script> <br />
-and put your api key on PUT_YOUR_API_HERE
+<strong>and put your api key on PUT_YOUR_API_HERE</strong>
 
 
 2.Open the command line in the project directory.<br /><br />
@@ -21,8 +21,8 @@ and put your api key on PUT_YOUR_API_HERE
 <strong>  npm init </strong><br />
 (it will install all the dependencies)<br /><br />
 4. Since we are using MongoDB as database make sure to connect it.<br /><br />
-5. After the connection simply execute
-  node app.js<br /><br />
+5. After the connection simply execute<br />
+ <strong> node app.js</strong><br /><br />
 6. Visit 
    http://localhost:3000/		<br /><br />
 7. Add locations and then check your Database.
