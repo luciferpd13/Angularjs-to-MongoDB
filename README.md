@@ -16,18 +16,13 @@ Scroll Down to
 and put your api key on PUT_YOUR_API_HERE
 
 
-2.Open the command line in the project directory.<br />
-
+2.Open the command line in the project directory.<br /><br />
 3. Since I haven't included the node_modules in github. You have to import it Using :-
   npm init
-(it will install all the dependencies)<br />
-
-4. Since we are using MongoDB as database make sure to connect it.<br />
-
+(it will install all the dependencies)<br /><br />
+4. Since we are using MongoDB as database make sure to connect it.<br /><br />
 5. After the connection simply execute
-  node app.js<br />
-  
+  node app.js<br /><br />
 6. Visit 
-   http://localhost:3000/		<br />
-   
+   http://localhost:3000/		<br /><br />
 7. Add locations and then check your Database.
