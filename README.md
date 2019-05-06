@@ -13,8 +13,10 @@ Scroll Down to
  <script type="text/javascript" <br />
         src="https://maps.googleapis.com/maps/api/js?key=PUT_YOUR_API_HERE&libraries=places&callback=placeSearch"><br />
  </script> <br />
-<strong>and put your api key on PUT_YOUR_API_HERE</strong>
-
+<strong>and put your api key on PUT_YOUR_API_HERE</strong><br />
+<p align="center">
+  <img src="client/capture.jpg" width="350">
+</p>
 
 2.Open the command line in the project directory.<br /><br />
 3. Since I haven't included the node_modules in github. You have to import it Using :-<br />
