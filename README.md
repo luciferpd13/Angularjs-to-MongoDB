@@ -15,7 +15,7 @@ Scroll Down to
  </script> <br />
 <strong>and put your api key on PUT_YOUR_API_HERE</strong><br />
 <p align="center">
-  <img src="client/capture.jpg" width="350">
+  <img src="client/Capture.JPG" width="350">
 </p>
 
 2.Open the command line in the project directory.<br /><br />
