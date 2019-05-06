@@ -18,7 +18,7 @@ and put your api key on PUT_YOUR_API_HERE
 
 2.Open the command line in the project directory.<br /><br />
 3. Since I haven't included the node_modules in github. You have to import it Using :-<br />
-  npm init<br />
+<strong>  npm init </strong><br />
 (it will install all the dependencies)<br /><br />
 4. Since we are using MongoDB as database make sure to connect it.<br /><br />
 5. After the connection simply execute
